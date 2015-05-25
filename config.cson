@@ -1,0 +1,20 @@
+"*":
+  "exception-reporting":
+    userId: "b726313b-7bbd-e6c1-0ef8-7e0c7546aac1"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "atom-light-ui"
+      "atom-light-syntax"
+    ]
+    projectHome: "/Users/kaiquesilva/projects"
+  editor:
+    invisibles: {}
+  linter: {}
+  minimap:
+    plugins:
+      "find-and-replace": true
+"source.gfm":
+  editor:
+    softWrap: true
