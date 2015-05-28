@@ -2,8 +2,7 @@
   "name": "linter-jshint",
   "main": "./lib/init",
   "linter-package": true,
-  "activationCommands": {},
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Linter plugin for JavaScript, using jshint",
   "repository": {
     "type": "git",
@@ -22,10 +21,10 @@
     "url": "https://github.com/AtomLinter/linter-jshint/issues"
   },
   "homepage": "https://github.com/AtomLinter/linter-jshint",
-  "_id": "linter-jshint@0.1.4",
-  "_shasum": "9e3e2be01b62f057c8ab1c9cfa76454db7c792a3",
-  "_resolved": "file:../d-115414-67403-1qpd602/package.tgz",
-  "_from": "../d-115414-67403-1qpd602/package.tgz",
+  "_id": "linter-jshint@0.1.5",
+  "_shasum": "8d6bf4f00a7856db2d28f78de7bf0115a8df8f1c",
+  "_resolved": "file:../d-115426-12530-1mkgai3/package.tgz",
+  "_from": "../d-115426-12530-1mkgai3/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -56,12 +55,12 @@
       },
       {
         "name": "lru-cache",
-        "version": "2.6.2",
+        "version": "2.6.4",
         "path": "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js"
       },
       {
         "name": "sigmund",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "path": "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js"
       },
       {
@@ -151,7 +150,7 @@
       },
       {
         "name": "minimatch",
-        "version": "2.0.7",
+        "version": "2.0.8",
         "path": "node_modules/jshint/node_modules/minimatch/minimatch.js"
       },
       {
@@ -210,8 +209,6 @@
         "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits/inherits_browser.js",
         "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/inherits/test.js",
         "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/minimatch.js",
-        "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/bar.js",
-        "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/foo.js",
         "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/lru-cache/lib/lru-cache.js",
         "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund/bench.js",
         "node_modules/jshint/node_modules/cli/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js",

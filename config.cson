@@ -9,12 +9,23 @@
       "atom-light-syntax"
     ]
     projectHome: "/Users/kaiquesilva/projects"
+    disabledPackages: [
+      "pipe"
+      "term"
+      "linter-stylint"
+      "linter-jshint"
+      "Stylus"
+    ]
   editor:
-    invisibles: {}
-  linter: {}
+    invisibles:
+      {}
+  linter:
+    {}
   minimap:
     plugins:
       "find-and-replace": true
+  Zen:
+    {}
 "source.gfm":
   editor:
     softWrap: true

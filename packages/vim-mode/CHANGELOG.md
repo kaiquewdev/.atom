@@ -1,5 +1,18 @@
 ## HEAD
 
+## 0.49
+
+* Fix an issue that caused the cursor to move left incorrectly when near
+  the end of a line.
+
+## 0.48
+
+* Fix usages of deprecated APIs
+
+## 0.47
+
+* Fix usages of deprecated APIs - @hitsmaxft, @jacekkopecky
+
 ## 0.46
 
 * Fix issues with deleting when there are multiple selections - @jacekkopecky
