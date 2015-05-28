@@ -12,7 +12,6 @@
     disabledPackages: [
       "pipe"
       "term"
-      "linter-stylint"
       "linter-jshint"
       "Stylus"
     ]
