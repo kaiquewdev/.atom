@@ -1,0 +1,5 @@
+'atom-text-editor':
+  'ctrl-alt-up': 'keyboard-scroll:scrollUpWithCursor'
+  'ctrl-alt-down': 'keyboard-scroll:scrollDownWithCursor'
+  'alt-up': 'keyboard-scroll:scrollUp'
+  'alt-down': 'keyboard-scroll:scrollDown'

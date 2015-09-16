@@ -1,0 +1,42 @@
+{
+  "name": "swap-selection",
+  "main": "./lib/swap-selection",
+  "version": "0.3.0",
+  "description": "swaps/cycles/transposes your current text selections",
+  "keywords": [],
+  "activationCommands": {
+    "atom-text-editor": "swap-selection:right"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RocketScienceAbteilung/swap-selection.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# Swap Selection ![travis](https://travis-ci.org/RocketScienceAbteilung/swap-selection.svg?branch=master)\n\nAn atom plugin which swaps/cycles/transposes your current editors text selections with a single keypress.\nSimilar to [atom-transpose](https://atom.io/packages/atom-transpose) but supports more than two selections.\n\n![cycle it](https://cloud.githubusercontent.com/assets/72940/8087278/33a2d014-0f9a-11e5-9b41-56141c8fc80a.gif)\n\n## Usage\n\n* use `alt-t` to swap/cycle in foreward (right) direction\n* use `shift-alt-t` to swap/cycle in backward (left) direction\n\n## Featues\n\n* supports two or more selections\n* cycle left or right direction\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/RocketScienceAbteilung/swap-selection/issues"
+  },
+  "homepage": "https://github.com/RocketScienceAbteilung/swap-selection#readme",
+  "_id": "swap-selection@0.3.0",
+  "_shasum": "5c06c9dea327124ea363ada684cc4b3ef54082cf",
+  "_resolved": "file:../d-115816-56965-1t99y2l/package.tgz",
+  "_from": "../d-115816-56965-1t99y2l/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/swap-selection.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

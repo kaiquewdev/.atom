@@ -2,7 +2,7 @@
   "name": "emmet",
   "description": "Emmet – the essential tool for web developers",
   "main": "./lib/emmet",
-  "version": "2.3.10",
+  "version": "2.3.12",
   "dependencies": {
     "emmet": "^1.3.1",
     "atom-space-pen-views": "^2.0.3"
@@ -20,10 +20,10 @@
     "url": "https://github.com/emmetio/emmet-atom/issues"
   },
   "homepage": "https://github.com/emmetio/emmet-atom",
-  "_id": "emmet@2.3.10",
-  "_shasum": "d8acb8c0a241f87f39358951e4ed2c9b4d94c97d",
-  "_resolved": "file:../d-115426-12516-q5oiao/package.tgz",
-  "_from": "../d-115426-12516-q5oiao/package.tgz",
+  "_id": "emmet@2.3.12",
+  "_shasum": "4b282b2f02bc67b0ea09eb352dd441ea5c9e0a70",
+  "_resolved": "file:../d-115625-7026-jy4bya/package.tgz",
+  "_from": "../d-115625-7026-jy4bya/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
@@ -89,7 +89,7 @@
       },
       {
         "name": "amdefine",
-        "version": "0.1.0",
+        "version": "1.0.0",
         "path": "node_modules/atom-space-pen-views/node_modules/space-pen/node_modules/grim/node_modules/coffeestack/node_modules/source-map/node_modules/amdefine/amdefine.js"
       },
       {

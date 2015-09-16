@@ -1,0 +1,43 @@
+{
+  "name": "goto-last-edit",
+  "main": "./lib/goto-last-edit",
+  "version": "0.2.2",
+  "description": "Move the cursor to the last edited element",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plrenaudin/goto-last-edit.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  },
+  "readme": "# goto-last-edit package\n\nMove the cursor to the last edit position when you type ```ctrl+i``` \n\n![screencast](http://ks3352370.kimsufi.com/public/gotoLastEdit.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/plrenaudin/goto-last-edit/issues"
+  },
+  "homepage": "https://github.com/plrenaudin/goto-last-edit#readme",
+  "_id": "goto-last-edit@0.2.2",
+  "_shasum": "850e40632f801903ff21eb33d8e16bcbd7af49c5",
+  "_resolved": "file:../d-115816-57003-m1zjug/package.tgz",
+  "_from": "../d-115816-57003-m1zjug/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".json": [
+        "coffeelint.json",
+        "package.json"
+      ],
+      ".coffee": [
+        "lib/goto-last-edit.coffee"
+      ]
+    },
+    "folders": []
+  }
+}

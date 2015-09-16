@@ -1,0 +1,38 @@
+{
+  "name": "transpose-selection",
+  "version": "1.1.0",
+  "description": "Transpose multiple selections",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifcanduela/transpose-selection.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# transpose-selection\n\nA tiny Atom package that allows transposing the text of multiple selections.\n\nWith two selections, it simply swaps the two, from:\n\n~~~\nAlpha Beta\n~~~\n\nto\n\n~~~\nBeta Alpha\n~~~\n\nWith multiple text selections, use the `Transpose Selection: Transpose`\ncommand to move the text from one region to the next, and the text from the\nlast to the first. For example, if you select all the values in the next\nobject:\n\n~~~js\nvar test = {\n  \"one\":   \"alpha\",\n  \"two\":   \"beta\",\n  \"three\": \"gamma\",\n  \"four\":  \"delta\",\n  \"five\":  \"epsilon\",\n};\n~~~\n\nAnd use the command, you will get the command result:\n\n~~~js\nvar test = {\n  \"one\":   \"epsilon\",\n  \"two\":   \"alpha\",\n  \"three\": \"beta\",\n  \"four\":  \"gamma\",\n  \"five\":  \"delta\",\n};\n~~~\n\nThe recommended keybinding is:\n\n~~~coffee\n'atom-text-editor:not([mini])':\n  'ctrl-alt-t': 'transpose-selection:transpose'\n~~~\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/ifcanduela/transpose-selection/issues"
+  },
+  "homepage": "https://github.com/ifcanduela/transpose-selection#readme",
+  "_id": "transpose-selection@1.1.0",
+  "_shasum": "129f64fe9de3de42684076448441ff975d9bca0e",
+  "_resolved": "file:../d-115816-55923-3tabug/package.tgz",
+  "_from": "../d-115816-55923-3tabug/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "index.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "deserialize-json",
+  "main": "./lib/deserialize-json",
+  "version": "1.1.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "deserialize-json:deserialize"
+  },
+  "activationEvents": [
+    "deserialize-json:deserialize"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argestes/deserialize-json.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "readme": "# deserialize-json package\n\nA short description of your package.\n\n![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/argestes/deserialize-json/issues"
+  },
+  "homepage": "https://github.com/argestes/deserialize-json#readme",
+  "_id": "deserialize-json@1.1.0",
+  "_shasum": "dc063607cb624174f6ef33ef4286813aec52831e",
+  "_resolved": "file:../d-115816-56453-hff574/package.tgz",
+  "_from": "../d-115816-56453-hff574/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/deserialize-json-view.coffee",
+        "lib/deserialize-json.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

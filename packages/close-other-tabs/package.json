@@ -1,0 +1,43 @@
+{
+  "name": "close-other-tabs",
+  "main": "./lib/close-other-tabs",
+  "version": "0.1.0",
+  "description": "Close inactive tabs using option-command-w.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smockle/close-other-tabs.git"
+  },
+  "license": "ISC",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "author": {
+    "name": "Clay Miller"
+  },
+  "keywords": [
+    "close tabs"
+  ],
+  "readme": "close-other-tabs\n===\nAn [AtomEditor](https://atom.io) package to close inactive tabs using option-command-w.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/smockle/close-other-tabs/issues"
+  },
+  "homepage": "https://github.com/smockle/close-other-tabs#readme",
+  "_id": "close-other-tabs@0.1.0",
+  "_shasum": "12236535eb65b64d1c5e58a7c3ee4a12060cb273",
+  "_resolved": "file:../d-115816-56856-3i759i/package.tgz",
+  "_from": "../d-115816-56856-3i759i/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/close-other-tabs.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

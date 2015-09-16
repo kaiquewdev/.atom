@@ -4,27 +4,26 @@
   welcome:
     showOnStartup: false
   core:
-    themes: [
-      "atom-light-ui"
-      "atom-light-syntax"
-    ]
     projectHome: "/Users/kaiquesilva/projects"
     disabledPackages: [
       "pipe"
       "term"
       "linter-jshint"
-      "Stylus"
     ]
   editor:
-    invisibles:
-      {}
-  linter:
-    {}
+    invisibles: {}
+  linter: {}
   minimap:
     plugins:
       "find-and-replace": true
-  Zen:
-    {}
+      selection: true
+  Zen: {}
+  "atom-beautify":
+    _analyticsUserId: "3ff1aeda-38d6-4aa9-8ee5-359f954b7315"
+  "one-light-ui": {}
+  autosave:
+    enabled: true
+  rulerz: {}
 "source.gfm":
   editor:
     softWrap: true
