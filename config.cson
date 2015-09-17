@@ -10,6 +10,10 @@
       "term"
       "linter-jshint"
     ]
+    themes: [
+      "nucleus-dark-ui"
+      "atom-dark-syntax"
+    ]
   editor:
     invisibles: {}
   linter: {}
