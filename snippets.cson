@@ -16,3 +16,19 @@
 # This file uses CoffeeScript Object Notation (CSON).
 # If you are unfamiliar with CSON, you can read more about it here:
 # https://github.com/bevry/cson#what-is-cson
+'.source.js':
+  'Angular module':
+    'prefix': 'ng-module'
+    'body': 'angular\n\t.module(\'$1\', [])\n\t.run(function ($log) {\n\t\t$log.debug(\'$1 are running!\');\n\t});'
+
+  'Angular filter':
+    'prefix': 'ng-filter'
+    'body': '.filter(\'$1\', function ($2) {\n\treturn function ($3) {\n\t\t$4\n\t\treturn $5;\n\t};\n})'
+
+  'Angular directive':
+    'prefix': 'ng-directive'
+    'body': '.directive(\'$1\', function ($2) {\n\treturn {\n\t\trestrict: \'$3\',\n\t\ttemplateUrl: \'$4\'\n\t};\n})'
+
+  'Angular log debug':
+    'prefix': 'ng-debug'
+    'body': '$log.debug(\'$1\');'

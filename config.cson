@@ -11,7 +11,7 @@
       "linter-jshint"
     ]
     themes: [
-      "nucleus-dark-ui"
+      "atom-dark-ui"
       "atom-dark-syntax"
     ]
   editor:
@@ -28,6 +28,9 @@
   autosave:
     enabled: true
   rulerz: {}
+  everything:
+    commandsProviderTrigger: ""
+    googleProviderTrigger: ""
 "source.gfm":
   editor:
     softWrap: true

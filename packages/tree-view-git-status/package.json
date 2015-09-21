@@ -1,7 +1,7 @@
 {
   "name": "tree-view-git-status",
   "main": "./lib/main",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Show the Git repository status in the Atom tree-view",
   "repository": {
     "type": "git",
@@ -28,10 +28,10 @@
     "url": "https://github.com/subesokun/atom-tree-view-git-status/issues"
   },
   "homepage": "https://github.com/subesokun/atom-tree-view-git-status#readme",
-  "_id": "tree-view-git-status@0.2.0",
-  "_shasum": "3d7e22c719feda7d22bf0b709f225db04cff8e55",
-  "_resolved": "file:../d-115816-56326-1vegz5i/package.tgz",
-  "_from": "../d-115816-56326-1vegz5i/package.tgz",
+  "_id": "tree-view-git-status@0.2.1",
+  "_shasum": "7decbd8c79a1b9bfbf4b53d1cb1b88e0c326f5b0",
+  "_resolved": "file:../d-115821-71462-148jfxh/package.tgz",
+  "_from": "../d-115821-71462-148jfxh/package.tgz",
   "_atomModuleCache": {
     "version": 1,
     "dependencies": [
