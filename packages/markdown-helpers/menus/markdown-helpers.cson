@@ -1,0 +1,15 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+    'atom-workspace':[{'label':'Enable markdown-helpers', 'command': 'markdown-helpers:toggle'}]
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Markdown Helpers'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'markdown-helpers:toggle' }
+      ]
+    ]
+  }
+]
